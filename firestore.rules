@@ -1,0 +1,9 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Permit read and write operations for anyone using the web applet
+    match /whatsapp_orders/{document} {
+      allow read, write: if true;
+    }
+  }
+}

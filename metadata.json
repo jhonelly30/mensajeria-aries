@@ -1,0 +1,6 @@
+{
+  "name": "Orden a WhatsApp",
+  "description": "Extrae datos de imágenes de órdenes de trabajo para generar mensajes de WhatsApp estructurados con ubicaciones de Google Maps.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
